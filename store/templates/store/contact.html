@@ -1,0 +1,18 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+    <h1 id="ivantot"> Contact Page </h1>
+<div class="contact-form" style="margin-left: 400px;">
+<form class="contact" method="post">
+     <input type="text" name="name" class="text-box" placeholder="Your Name" required style="width: 350%; height: 75%; margin-top: 50px;">
+     <input type="email" name="email" class="text-box" placeholder="Your Email" required style="width: 350%;">
+     <textarea name="message" rows="5" placeholder="Your Message" required style="width: 500%;"></textarea>
+     <input type="submit" name="submit" class="send-btn mx-auto d-block" value="Send" required style="margin-left: 300%;">
+     </form>
+     </div>
+</body>
+
+
+
+{% endblock content %}
